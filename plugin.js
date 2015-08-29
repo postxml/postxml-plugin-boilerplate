@@ -11,20 +11,23 @@ var vars = [
       value: plugin.github
    }
 ];
-var files = ['_package.json', '_README.md', '_test/test.js'];
+var files = ['package.json', 'README', 'test/test.js'];
 
 var counter = 0;
 
+fs.unlinkSync('README.md')
+
 for (var index in files){
 
-   var file = String( fs.readFileSync( files[index] ) );
+   var fileName = files[index],
+      file = String( fs.readFileSync( fileName ) );
 
    for(var i in vars){
       var variable = vars[i];
       file = file.replace(new RegExp(variable.name, 'g'), variable.value);
    }
 
-   if(files[index] === 'package.json'){
+   if(fileName === 'package.json'){
       var json = JSON.parse(file);
       json.description = plugin.description;
       json.keywords = plugin.keywords;
@@ -32,8 +35,12 @@ for (var index in files){
       var file = JSON.stringify(json, null, '\t')
    }
 
-   fs.writeFileSync(files[index], file);
+   if(fileName === 'README'){
+      fileName += '.md';
+   }
+
+   fs.writeFileSync(fileName, file);
 }
 
-// fs.unlinkSync('plugin.json');
-// fs.unlinkSync('plugin.js');
+fs.unlinkSync('plugin.json');
+fs.unlinkSync('plugin.js');

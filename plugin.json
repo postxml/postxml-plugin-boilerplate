@@ -1,10 +1,11 @@
 {
-	"name": "poxtxml-plugin-boilerplate",
+	"name": "poxtxml-",
 	"github": "postxml",
-	"description": "postxml plugin boilerplate",
+	"description": "Postxml plugin ",
 	"keywords": [
 		"html",
 		"plugin",
+		"postxml",
 		"transform"
 	],
 	"author": {

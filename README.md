@@ -1,38 +1,28 @@
 # PLUGIN_NAME
 [![npm version][npm-image]][npm-url]
 
-> [PostXML] plugin enabling configuration maps.
+> [PostXML] plugin boilerplate.
 
 ## Installation
-`npm i postxml- --save-dev`
 
 ## Usage
-```js
-var fs = require('fs'),
-   postxml = require('postxml'),
-   plugin = require('PLUGIN_NAME');
-
-var html = fs.readFileSync('input.html', 'utf8');
-
-var output = postxml(
-      html,
-      [
-         plugin()
-      ]
-   );
-```
-
-## Example
-
-### Input
-```html
-
-```
-
-### Output
-```html
-
-```
+   1. Clone this repository
+      ```
+      git clone http://github.com/postxml/postxml-plugin-boilerpate.git
+      ```
+   2. Fill `plugin.json`
+   3. Run
+      ```
+      node plugin.js
+      ```
+   4. Install packages
+      ```
+      npm i
+      ```
+   5. Develop
+      ```
+      gulp watch
+      ```
 
 ## Licence
 MIT
