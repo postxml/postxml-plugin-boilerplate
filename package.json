@@ -1,0 +1,30 @@
+{
+   "name": "PLUGIN_NAME",
+   "version": "0.1.0",
+   "description": "",
+   "main": "index.js",
+   "dependencies": {
+      "postxml": "^0.0.4"
+   },
+   "devDependencies": {
+      "chai": "^3.2.0",
+      "gulp": "^3.9.0",
+      "gulp-eslint": "^1.0.0",
+      "gulp-mocha": "^2.1.3"
+   },
+   "scripts": {
+      "test": "mocha",
+      "lint": "jshint . && jscs ."
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/GITHUB_NAME/PLUGIN_NAME.git"
+   },
+   "keywords": [],
+   "author": {},
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/GITHUB_NAME/PLUGIN_NAME/issues"
+   },
+   "homepage": "https://github.com/GITHUB_NAME/PLUGIN_NAME#readme"
+}

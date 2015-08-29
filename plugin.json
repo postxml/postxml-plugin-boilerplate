@@ -1,0 +1,14 @@
+{
+	"name": "poxtxml-plugin-boilerplate",
+	"github": "postxml",
+	"description": "postxml plugin boilerplate",
+	"keywords": [
+		"html",
+		"plugin",
+		"transform"
+	],
+	"author": {
+		"name": "alanev",
+		"email": "e@alanev.ru"
+	}
+}
