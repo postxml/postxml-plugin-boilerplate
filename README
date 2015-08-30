@@ -4,7 +4,7 @@
 > [PostXML] plugin enabling configuration maps.
 
 ## Installation
-`npm i postxml- --save-dev`
+`npm i PLUGIN_NAME --save-dev`
 
 ## Usage
 ```js
