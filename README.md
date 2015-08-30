@@ -1,4 +1,4 @@
-# PLUGIN_NAME
+# Posxtml plugin boilerplate
 [![npm version][npm-image]][npm-url]
 
 > [PostXML] plugin boilerplate.

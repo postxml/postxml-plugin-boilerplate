@@ -37,6 +37,7 @@ for (var index in files){
 
    if(fileName === 'README'){
       fileName += '.md';
+      fs.unlinkSync('README');
    }
 
    fs.writeFileSync(fileName, file);
