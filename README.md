@@ -1,5 +1,4 @@
 # Posxtml plugin boilerplate
-[![npm version][npm-image]][npm-url]
 
 > [PostXML] plugin boilerplate.
 
@@ -28,6 +27,3 @@
 MIT
 
 [PostXML]: https://github.com/postxml/postxml
-
-[npm-url]: https://www.npmjs.org/package/PLUGIN_NAME
-[npm-image]: http://img.shields.io/npm/v/PLUGIN_NAME.svg?style=flat-square
