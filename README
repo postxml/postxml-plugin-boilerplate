@@ -7,20 +7,7 @@
 `npm i PLUGIN_NAME --save-dev`
 
 ## Usage
-```js
-var fs = require('fs'),
-   postxml = require('postxml'),
-   plugin = require('PLUGIN_NAME');
-
-var html = fs.readFileSync('input.html', 'utf8');
-
-var output = postxml(
-      html,
-      [
-         plugin()
-      ]
-   );
-```
+[Postxml]
 
 ## Example
 
