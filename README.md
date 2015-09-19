@@ -1,13 +1,11 @@
-# Posxtml plugin boilerplate
+# PostXML plugin boilerplate
 
 > [PostXML] plugin boilerplate.
-
-## Installation
 
 ## Usage
    1. Clone this repository
       ```
-      git clone http://github.com/postxml/postxml-plugin-boilerpate.git
+      git clone https://github.com/postxml/postxml-plugin-boilerplate.git
       ```
    2. Fill `plugin.json`
    3. Run
