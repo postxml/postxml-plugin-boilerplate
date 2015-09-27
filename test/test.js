@@ -4,9 +4,9 @@ var expect = require('chai').expect;
 
 var test = function (input, output, opts) {
 
-   var proccessed = postxml(input, [plugin(opts)]);
+   var processed = postxml([plugin(opts)]).process(input);
 
-   expect(proccessed).to.eql(output);
+   expect(processed).to.eql(output);
 };
 
 describe('PLUGIN_NAME', function () {
