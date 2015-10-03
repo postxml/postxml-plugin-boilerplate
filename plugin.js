@@ -9,6 +9,10 @@ var vars = [
 	{
 		name: 'GITHUB_NAME',
 		value: plugin.github
+	},
+	{
+		name: 'PLUGIN_INFO',
+		value: plugin.description
 	}
 ];
 var files = ['package.json', 'README', 'test/test.js'];
@@ -23,8 +27,13 @@ for (var index in files){
 	file = String( fs.readFileSync( fileName ) );
 
 	for(var i in vars){
-		var variable = vars[i];
-		file = file.replace(new RegExp(variable.name, 'g'), variable.value);
+		var variable = vars[i],
+			value = variable.value,
+			name = variable.name;
+		if (fileName === 'README' && name === 'PLUGIN_INFO') {
+			value.replace('PostXML', '[PostXML]');
+		}
+		file = file.replace(new RegExp(name, 'g'), value);
 	}
 
 	if(fileName === 'package.json'){

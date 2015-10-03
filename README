@@ -1,7 +1,7 @@
 # PLUGIN_NAME
 [![npm version][npm-image]][npm-url]
 
-> [PostXML] .
+> PLUGIN_INFO.
 
 ## Installation
 `npm i PLUGIN_NAME --save-dev`
