@@ -1,7 +1,7 @@
 # PLUGIN_NAME
 [![npm version][npm-image]][npm-url]
 
-> [PostXML] plugin enabling configuration maps.
+> [PostXML] .
 
 ## Installation
 `npm i PLUGIN_NAME --save-dev`

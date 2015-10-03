@@ -1,5 +1,5 @@
 module.exports = function () {
-    return function ($) {
-        // transformation
-    };
+	return function ($) {
+		// transformation
+	};
 };

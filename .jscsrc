@@ -1,7 +1,7 @@
 {
-    "excludeFiles": [
-        ".git/**",
-        "node_modules/**"
-    ],
-    "fileExtensions": [".js"]
+	"excludeFiles": [
+		".git/**",
+		"node_modules/**"
+	],
+	"fileExtensions": [".js"]
 }
