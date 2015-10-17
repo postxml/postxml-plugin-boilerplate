@@ -16,7 +16,7 @@ gulp.task('test', function (done) {
 		.pipe(mocha()).on('error', done);
 });
 
-gulp.task('default', ['lint', 'test']);
+gulp.task('default', ['lint', 'test', 'watch']);
 
 gulp.task('watch', function() {
 	gulp.watch(files, ['lint', 'test']);
